@@ -36,7 +36,7 @@ public class CodeGenerator {
         //日期格式，采用Date
         gc.setDateType(DateType.ONLY_DATE);
         //配置swagger
-        gc.setSwagger2(true);
+//        gc.setSwagger2(true);
         mpg.setGlobalConfig(gc);
         // 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
